@@ -1,2 +1,4 @@
 2018/12/24
 A beginning to become a CS master.
+
+GetCurrentProcessId()，用于获取当前进程ID。
