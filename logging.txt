@@ -8,4 +8,17 @@ month.Meanwhile,the architecture of "simuserver" shoul
 d be made clear in one week.The speed of downloading
 files in "adminserver" must be accelerated.
 
+2018/12/25
 learn to create a thread in win.
+#include<thread>
+thread t1(functionName);
+pretty simple.
+
+To accelerate the download speed,I think replace "while"
+ with "for" is not helpful.
+
+Just now,I realize that CS master also means a higher 
+degree in China.HaHaHa.
+
+Well,I need to understand how to use MUTEX and SEMA
+POST,etc.
