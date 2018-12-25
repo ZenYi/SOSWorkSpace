@@ -22,3 +22,26 @@ degree in China.HaHaHa.
 
 Well,I need to understand how to use MUTEX and SEMA
 POST,etc.
+
+sprintf_s
+
+服务器向nodeagent发送文件信息，由nodeagent向服务器
+请求文件块。但是速度非常缓慢。寻找解决办法。
+
+GenerateComponentFileInfos
+
+#include"io.h"
+
+Record
+typedef struct _WIN32_FIND_DATA {
+DWORD dwFileAttributes; //文件属性
+FILETIME ftCreationTime; // 文件创建时间
+FILETIME ftLastAccessTime; // 文件最后一次访问时间
+FILETIME ftLastWriteTime; // 文件最后一次修改时间
+DWORD nFileSizeHigh; // 文件长度高32位
+DWORD nFileSizeLow; // 文件长度低32位
+DWORD dwReserved0; // 系统保留
+DWORD dwReserved1; // 系统保留
+TCHAR cFileName[ MAX_PATH ]; // 长文件名
+TCHAR cAlternateFileName[ 14 ]; // 8.3格式文件名
+} WIN32_FIND_DATA, *PWIN32_FIND_DATA;
