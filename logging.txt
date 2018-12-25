@@ -45,3 +45,7 @@ DWORD dwReserved1; // 系统保留
 TCHAR cFileName[ MAX_PATH ]; // 长文件名
 TCHAR cAlternateFileName[ 14 ]; // 8.3格式文件名
 } WIN32_FIND_DATA, *PWIN32_FIND_DATA;
+
+做一个文件下载进度报告。这个初步的想法是统计当前
+已经收到的文件块数量，和全部文件块数量进行对比获
+得进度。
