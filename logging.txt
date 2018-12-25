@@ -2,3 +2,10 @@
 A beginning to become a CS master.
 
 GetCurrentProcessId() 
+
+I think it is necessary to Realize an "adminserver" in one 
+month.Meanwhile,the architecture of "simuserver" shoul
+d be made clear in one week.The speed of downloading
+files in "adminserver" must be accelerated.
+
+learn to create a thread in win.
