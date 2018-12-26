@@ -54,5 +54,31 @@ TCHAR cAlternateFileName[ 14 ]; // 8.3格式文件名
 今日基础任务：
 完成停止组件部署功能。
 请教组件下载加速功能应该如何实现。
+查找重启AdminServer后组件无法下载的原因。
 今日进阶任务：隐藏。
 
+关于停止组件部署功能：
+在MsgList中增加了一个清空队列的功能。使得当前的Node
+Agent不再向服务器请求文件。
+
+重启AdminServer后组件下载可能原因分析：
+对于NodeAgent来说，已经发送了要求的消息。
+[DEBUG]服务器输出Get_sessionList:1
+[DEBUG] 收到客户端 组件文件下载报文
+              组件ID:201
+              文件名：msvcp120d.dll
+              文件块号：11
+
+replyTopicName为：DEVICE:22063296
+重启服务器之后replyTopicName并没有改变
+
+NodeAgent显示Wait for too many round!
+(应该是Wait for too many rounds...)，这可能代表
+NodeAgent发送了请求但是服务器并没有响应。在
+服务器接收组件文件块处加一条语句，判断NodeAg
+ent是否接收到了服务器发过来地报文。
+
+奇怪地情况，初步来看AdminServer重启后并没有什么改变
+了地地方。
+
+InsertMsg之后，fileDownloader没有执行MsgResolve
