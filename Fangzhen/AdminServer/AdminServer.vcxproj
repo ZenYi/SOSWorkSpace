@@ -65,9 +65,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AdminServer.h" />
+    <ClInclude Include="EvoConsts.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdminServer.cpp" />
+    <ClCompile Include="UserInfoManager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

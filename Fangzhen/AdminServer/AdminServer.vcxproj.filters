@@ -18,10 +18,16 @@
     <ClInclude Include="AdminServer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="EvoConsts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdminServer.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoManager.cpp">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
