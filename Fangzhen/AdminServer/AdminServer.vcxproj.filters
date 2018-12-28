@@ -21,13 +21,25 @@
     <ClInclude Include="EvoConsts.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeployManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgMonitorManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdminServer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="UserInfoManager.cpp">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

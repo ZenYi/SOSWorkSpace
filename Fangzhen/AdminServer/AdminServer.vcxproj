@@ -65,7 +65,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AdminServer.h" />
+    <ClInclude Include="ComponentManager.h" />
+    <ClInclude Include="DeployManager.h" />
     <ClInclude Include="EvoConsts.h" />
+    <ClInclude Include="MsgMonitorManager.h" />
+    <ClInclude Include="UserInfoManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdminServer.cpp" />
