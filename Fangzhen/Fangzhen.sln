@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicFileOperation", "Basic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceAgent", "DeviceAgent\DeviceAgent.vcxproj", "{CB01859B-5C6B-47A3-81BA-686A02E28103}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestFeatures", "TestFeatures\TestFeatures.vcxproj", "{839DC9CC-1B7C-4D36-8F15-D86AA13343E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{CB01859B-5C6B-47A3-81BA-686A02E28103}.Debug|Win32.Build.0 = Debug|Win32
 		{CB01859B-5C6B-47A3-81BA-686A02E28103}.Release|Win32.ActiveCfg = Release|Win32
 		{CB01859B-5C6B-47A3-81BA-686A02E28103}.Release|Win32.Build.0 = Release|Win32
+		{839DC9CC-1B7C-4D36-8F15-D86AA13343E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{839DC9CC-1B7C-4D36-8F15-D86AA13343E0}.Debug|Win32.Build.0 = Debug|Win32
+		{839DC9CC-1B7C-4D36-8F15-D86AA13343E0}.Release|Win32.ActiveCfg = Release|Win32
+		{839DC9CC-1B7C-4D36-8F15-D86AA13343E0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
