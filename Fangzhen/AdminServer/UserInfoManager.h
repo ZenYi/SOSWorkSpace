@@ -1,5 +1,6 @@
 #include "AdminServer.h"
 
+//练习写一个真正的工程
 class UserInfo
 {
 	int age;//范围在0~200，可用int
