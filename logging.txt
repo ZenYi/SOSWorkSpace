@@ -200,3 +200,20 @@ QT的QPixmap是什么意思。整理一下用户数据通用性。
 又是没什么收获的一天。。
 
 
+2019/1/4
+今日计划：理解仿真（真正能够上手工作)(优先)
+云环境下多用户的数据管理。整理一下多用户的数据管理
+究竟应该体现再哪些方面。(优先)
+考虑多个程序的合并工作。关于这点，首先需要搞清楚软
+总线的工作机制。(次优先)
+
+虚拟桌面环境配置、用户系统组件是互相影响的。
+想到啥写啥，周末租个服务器自己做vpn。
+
+关于多用户管理，使用的接口是SimuSceneDesigner中
+的PutSimuSceneToServer和GetSimuSceneFromServer
+。
+
+可参考的对象是图形库同步。相关文件有EvoSimuGraph
+Library、VdesktopGraphLibrary、SimuSceneDesigner
+Info。
