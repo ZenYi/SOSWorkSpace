@@ -217,3 +217,13 @@ QT的QPixmap是什么意思。整理一下用户数据通用性。
 可参考的对象是图形库同步。相关文件有EvoSimuGraph
 Library、VdesktopGraphLibrary、SimuSceneDesigner
 Info。
+
+2019/1/6
+还是未进入学习状态。
+当前主要考虑仿真场景同步的问题。、
+
+图形库对文件的上传同步分的很细
+GetSimuSceneFromServer
+PutSimuSceneToServer均未实现。
+
+

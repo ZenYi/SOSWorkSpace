@@ -6,6 +6,7 @@
 #include <list>
 #include <set>
 #include <map>
+#include <memory>
 
 #include <algorithm>    // Ëã·¨
 #include <numeric>    // Ëã·¨
@@ -46,6 +47,7 @@ int main()
 
 	cout << m_pair.first << endl;
 	cout << m_pair.second << endl;
+
 	//if (mapStudent[2] == false)
 	//
 	//	cout << "bingo!" << endl;
