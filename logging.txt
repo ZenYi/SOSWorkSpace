@@ -331,5 +331,7 @@ else if(strcmp(what, "test1") == 0)
 
 图形库是最重要的。
 
-
+2019/1/12
+封装不同平台的线程,windows映射到beginthreadex，
+linux映射到pthread,vxworks映射到task.
 
