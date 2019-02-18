@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML内部节点一律使用小写，非注释信息不应使用中文 -->
+<component>
+    <system>
+        <!-- 系统级信息，用户不应修改 -->
+        <design>
+            <!-- 设计时信息：组件ID等 -->
+            <componentid>hanxf</componentid>
+        </design>
+        <install>
+            <!-- 安装时信息: 依赖库等 -->
+        </install>
+        <runtime>
+            <!-- 运行时信息: 平台信息等 -->
+            <os>
+                <name>linux</name>
+                <version/>
+            </os>
+            <processor>
+                <name>x86</name>
+            </processor>
+            <compiler>
+                <name>gcc</name>
+                <version>4.4.7</version>
+            </compiler>
+            <programlanguage>
+                <name>c++</name>
+            </programlanguage>
+        </runtime>
+    </system>
+    <user>
+        <!-- 用户级配置 -->
+        <ability>
+            <!-- 组件能力:并行度 优先级 -->
+        </ability>
+        <resoure>
+            <!-- 设备资源:内存 cpu 核 网络-->
+        </resoure>
+        <allocation>
+            <!-- 运行所需分配的资源-->
+        </allocation>
+        <property>
+            <!-- 配置信息 -->
+        </property>
+    </user>
+</component>
