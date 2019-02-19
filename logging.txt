@@ -364,3 +364,7 @@ HRA or H2A时间管理。
 接近一个月一事无成
 今日继续摸索kubernetes
 晚数据结构。
+
+2019/2/19
+学习java。摸索kubernetes。
+增加模型状态同步。
