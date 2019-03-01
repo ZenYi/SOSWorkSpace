@@ -368,3 +368,18 @@ HRA or H2A时间管理。
 2019/2/19
 学习java。摸索kubernetes。
 增加模型状态同步。
+
+2019/2/28
+期间完成了一点文档。
+什么都没有做但是coredns-86c58d9df4-2mfgs和kube-flannel-ds-amd64-g8s6r的
+状态分别由pending和ImagePullBackOff变成running。神奇。
+
+master节点的状态也变成Ready了，神奇。
+今日任务：
+摸索阿里云、学习查看kubernetes日志的方法，找出状态变化
+的原因、学习翻墙的方法（我一直缺乏快速看懂他人代码的能力，
+这个需要练习)。
+
+2019/3/1
+try to install kubeadm on an other computer.
+learn java.
