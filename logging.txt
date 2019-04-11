@@ -572,4 +572,21 @@ git相关的命令行。
 2019/4/11
 实现仿真态势服务端程序。                           
 测试一下git分支相关的指令
-java版软总线学习                     
+java版软总线学习
+获取windows下网络使用情况          
+
+图形化的Git，使用git log命令
+git log --graph --decorate --oneline
+ --simplify-by-decoration --all
+说明：
+--decorate 标记会让git log显示每个commit的引用(如:分支、
+tag等) 
+--oneline 一行显示
+--simplify-by-decoration 只显示被branch或tag引用的com
+mit
+--all 表示显示所有的branch，这里也可以选择，比如我指向
+显示分支ABC的关系，则将--all替换为branchA branchB br
+anchC           
+
+git push 远程主机名 --delete 远程分支名
+git branch -a
